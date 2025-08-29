@@ -22,6 +22,13 @@
       font-size: 2.5rem;
       letter-spacing: 2px;
     }
+    /* New CSS for the logo */
+    .header-logo {
+      max-width: 120px; /* Adjust size as needed */
+      height: auto;
+      margin-bottom: 0.5rem; /* Space between logo and title */
+      border-radius: 8px; /* Optional: subtle rounded corners */
+    }
     nav {
       background: #0066cc;
       display: flex;
@@ -164,6 +171,7 @@
 </head>
 <body>
   <header>
+    <img src="https://res.cloudinary.com/dfmpym7ed/image/upload/v1756412692/Screenshot_20250828-232330_2_mt8zhw.jpg" alt="Kilifi County Chess Association Logo" class="header-logo">
     <h1>Kilifi County Chess Association</h1>
   </header>
   <nav aria-label="Primary navigation">
@@ -273,13 +281,9 @@
       </select>
       <p id="strength-desc">Select a level to adjust the difficulty of the chess engine.</p>
       <div id="chessboard" aria-label="Chessboard">
-        <!-- The chessboard will display here -->
         <p>Chess playing feature coming soon!</p>
       </div>
-      <!-- For a full functional chess vs computer on a static page,
-           you would normally embed a chess library or platform.
-           Here we show a placeholder message due to complexity. -->
-    </section>
+      </section>
 
     <section id="move-of-the-day-section" aria-label="Move of the Day">
       <h2>Move of the Day</h2>
